@@ -201,7 +201,7 @@ li{
 }
 
 .about__textarea{
-    margin-right: 215px;
+    width: 45%;
     line-height: 1.5;
 }
 
@@ -210,7 +210,7 @@ li{
 }
 
 .about__img{
-    max-width: 405px;
+    max-width: 45%;
 }
 
 /* service */
@@ -263,15 +263,23 @@ li{
 .service__grid-box3{
     padding: 30px;
     display: flex;
+    justify-content: space-between;
 }
 
-.service__grid-box2 .service__grid-box__text-desc,
-.service__grid-box3 .service__grid-box__text-desc {
+.service__grid-box__textarea2,
+.service__grid-box__textarea3{
+    color: #fff;
+    width: 70%;
     padding-left: 10px;
 }
 
 .service__grid-box__ttl{
     text-align: center;
+    padding: 15px 0;
+}
+
+.service__grid-box__ttl2,
+.service__grid-box__ttl3{
     padding: 15px 0;
 }
 
@@ -437,7 +445,7 @@ table th{
 .contact__inner{
     max-width: 440px;
     padding: 85px 0;
-    margin:0 auto ;
+    margin:0  auto ;
 }
 
 .contact__ttl{
